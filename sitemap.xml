@@ -2,8 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lzzk.github.io/todolist/index.html</loc>
+    <lastmod>2015-09-25T08:30:33.849Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lzzk.github.io/reading%20list/index.html</loc>
+    <lastmod>2015-09-25T08:28:39.313Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lzzk.github.io/about/index.html</loc>
-    <lastmod>2015-09-22T09:00:14.550Z</lastmod>
+    <lastmod>2015-09-25T08:23:19.001Z</lastmod>
   </url>
   
   <url>
