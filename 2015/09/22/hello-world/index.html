@@ -121,10 +121,22 @@ Quick">
 </article>
 
 
-  <section id="comments">
-  <div id="ds-thread" class="ds-thread" data-thread-key="2015/09/22/hello-world/" data-title="Hello World" data-url="http://yoursite.com/2015/09/22/hello-world/"></div>
-  </section>
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
 
+
+<!-- 多说评论框 start -->
+
+<section id="comments">
+  <div class="ds-thread"  data-thread-key="/2015/09/22/hello-world/" data-title="Hello World" data-url="http://yoursite.com/2015/09/22/hello-world/" id="ds_thread">
+    <noscript>Please enable JavaScript to view the <a href="//duoshuo.com/?ref_noscript">comments powered by duoshuo.</a></noscript>
+  </div>
+</section>
+
+<!-- 多说评论框 end -->
 </section>
         
           <aside id="sidebar">
@@ -186,20 +198,36 @@ Quick">
   
 </nav>
     
-<!-- 多说公共js代码 start -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"lzzk"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0]
-     || document.getElementsByTagName('body')[0]).appendChild(ds);
+<script>
+  var disqus_shortname = 'XXX';
+  
+  var disqus_url = 'http://yoursite.com/2015/09/22/hello-world/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//go.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
-  </script>
-<!-- 多说公共js代码 end -->
+</script>
 
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"lzzk"};
+  (function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+<!-- 多说公共JS代码 end -->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
